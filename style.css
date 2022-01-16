@@ -5,7 +5,7 @@ background: url(https://cdn.discordapp.com/attachments/795758905904988200/835093
 background-size: cover;
 color: #fff;
 }
-img {
+img.border {
     border-style: solid;
     border-color:rgb(0, 0, 0);
 }
