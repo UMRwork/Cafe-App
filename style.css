@@ -6,40 +6,58 @@ background-size: cover;
 color: #fff;
 }
 img {
-    user-select: none;
+    border-style: solid;
+    border-color:rgb(0, 0, 0);
 }
-span.cls_003{font-family:Times,serif;font-size:28.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_003{font-family:Times,serif;font-size:28.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
 
-span.cls_004{font-family:Times,serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_004{font-family:Times,serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+/*
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;*/
+  }
 
-span.cls_006{font-family:Times,serif;font-size:11.1px;color:rgb(141, 52, 0);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_006{font-family:Times,serif;font-size:11.1px;color:rgb(141, 52, 0);font-weight:normal;font-style:normal;text-decoration: none}
 
-span.cls_019{font-family:Times,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_019{font-family:Times,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.select-menu{
+    margin: auto;
+    text-align: center;
+}
 
-span.cls_002{font-family:Times,serif;font-size:9.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_002{font-family:Times,serif;font-size:9.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.select-student{
+    background-color: rgb(57, 255, 133);
+    position:absolute;
+    height:80px;
+    width:100%;
+    top:50%;
+    font-size:23px;
+}
+div.select-student:hover {opacity: 0.7;}
 
-span.cls_147{font-family:Times,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_147{font-family:Times,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.select-seller{
+    background-color: #94d0f8;
+    position:absolute;
+    height:80px;
+    width:100%;
+    top:75%;
+    font-size:23px;
+}
+div.select-seller:hover {opacity: 0.7;}
 
-span.cls_012{font-family:Arial,serif;font-size:9.0px;color:rgb(114,170,35);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_012{font-family:Arial,serif;font-size:9.0px;color:rgb(114,170,35);font-weight:normal;font-style:normal;text-decoration: none}
-
-span.cls_014{font-family:Times,serif;font-size:9.0px;color:rgb(232,17,35);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_014{font-family:Times,serif;font-size:9.0px;color:rgb(232,17,35);font-weight:normal;font-style:normal;text-decoration: none}
-
-span.cls_017{font-family:Arial,serif;font-size:9.0px;color:rgb(232,17,35);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_017{font-family:Arial,serif;font-size:9.0px;color:rgb(232,17,35);font-weight:normal;font-style:normal;text-decoration: none}
-
-span.cls_022{font-family:Times,serif;font-size:9.0px;color:rgb(184,89,33);font-weight:normal;font-style:normal;text-decoration: underline}
-div.cls_022{font-family:Times,serif;font-size:9.0px;color:rgb(184,89,33);font-weight:normal;font-style:normal;text-decoration: none}
-
-span.cls_021{font-family:Times,serif;font-size:9.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_021{font-family:Times,serif;font-size:9.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-
+/*
 span.cls_020{font-family:Times,serif;font-size:7.0px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
 div.cls_020{font-family:Times,serif;font-size:7.0px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+*/
